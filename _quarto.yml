@@ -7,6 +7,13 @@ website:
   favicon: images/tree-favicon.svg
   site-url: "https://alastairpickering.github.io"
   description: "Computational ecology, biodiversity monitoring and scientific software."
+
+  open-graph:
+    image: images/social-preview.png
+
+  twitter-card:
+    image: images/social-preview.png
+    card-style: summary_large_image
   navbar:
     left:
       - href: index.qmd
