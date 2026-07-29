@@ -49,8 +49,7 @@ body-classes: research-page
       </p>
 
       <p>
-        The analysis also examines feasibility: how far species may need to disperse, whether suitable
-        seed zones exist, and how uncertainty in climate and trait projections affects the conclusions.
+        The analysis also examines feasibility: how far species may need to disperse and whether projected compositions would transgress existing seed zone guideance.
       </p>
 
       <div class="research-links">
