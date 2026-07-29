@@ -1,0 +1,124 @@
+---
+page-layout: full
+title-block-banner: false
+body-classes: home-page
+---
+
+```{=html}
+<section class="hero-cinematic">
+  <div class="hero-media" aria-hidden="true">
+    <div class="hero-photo hero-photo-forest"></div>
+    <div class="hero-photo hero-photo-elephant"></div>
+    <div class="hero-photo hero-photo-gibbon"></div>
+    <div class="hero-photo hero-photo-technology"></div>
+    <div class="hero-shade"></div>
+  </div>
+
+  <div class="site-frame hero-content">
+    <p class="eyebrow light">Computational ecology · Biodiversity monitoring · Scientific software</p>
+    <h1>Understanding ecological change at scale</h1>
+    <p class="hero-deck">
+      I use macroecological modelling, machine learning and scientific software to understand
+      forests, biodiversity and animal populations — and to turn research into practical tools.
+    </p>
+    <div class="button-row">
+      <a href="research.html" class="ap-button primary-light">Explore my research</a>
+      <a href="research.html#publications" class="ap-button ghost-light">Selected publications</a>
+    </div>
+  </div>
+</section>
+
+<div class="site-frame home-content">
+  <section class="intro-statement">
+    <p class="eyebrow">Selected work</p>
+    <h2>Research spanning ecological forecasting, bioacoustics and applied scientific technology.</h2>
+  </section>
+
+  <section class="home-profile">
+    <div class="home-profile-photo" role="img"
+         aria-label="Alastair Pickering standing beside a countryside field gate"></div>
+
+    <div class="home-profile-copy">
+      <p class="eyebrow">About</p>
+      <h2>Ecological researcher, software developer and former AI-business founder.</h2>
+      <p>
+        I work across macroecology, biodiversity monitoring and scientific software, combining
+        ecological research with long experience building analytical methods, products and organisations.
+      </p>
+      <a href="experience.html" class="text-link">More about my background →</a>
+    </div>
+  </section>
+
+  <section class="project-feature">
+    <div class="project-image project-image-forest" role="img"
+         aria-label="Dense forest canopy viewed from above"></div>
+    <div class="project-copy">
+      <p class="project-meta">Ecological forecasting</p>
+      <h2>Future North American forests</h2>
+      <p>
+        Modelling which existing forest communities may remain suited to late-century climates,
+        where no-analogue communities could emerge, and what those futures may consist of.
+      </p>
+      <a href="research.html#future-forests" class="text-link">Explore the research →</a>
+    </div>
+  </section>
+
+  <section class="project-feature project-feature-reverse">
+    <div class="project-copy">
+      <p class="project-meta">Scientific software</p>
+      <h2>PAMalytics</h2>
+      <p>
+        An open-source, classifier-agnostic platform for reviewing, validating and analysing
+        passive acoustic monitoring detections.
+      </p>
+      <div class="link-row">
+        <a href="research.html#pamalytics" class="text-link">Explore the project →</a>
+        <a href="https://pamalytics-demo.streamlit.app/" class="text-link">Launch demo →</a>
+      </div>
+    </div>
+
+    <div class="pam-gallery">
+      <img src="images/pam_validate1.png"
+           alt="PAMalytics validation filters and progress summary">
+      <img src="images/pam_validate2.png"
+           alt="PAMalytics spectrogram review cards">
+    </div>
+  </section>
+
+  <section class="project-feature">
+    <div class="project-image project-image-elephant" role="img"
+         aria-label="African elephant in woodland"></div>
+    <div class="project-copy">
+      <p class="project-meta">Conservation bioacoustics</p>
+      <h2>Forest elephant vocalisations</h2>
+      <p>
+        A scalable transfer-learning workflow for extracting demographic and behavioural
+        information from vocalisations when labelled datasets are limited.
+      </p>
+      <a href="research.html#elephant-bioacoustics" class="text-link">Explore the research →</a>
+    </div>
+  </section>
+
+  <section class="profile-band">
+    <div class="profile-copy">
+      <p class="eyebrow light">Applied foundations</p>
+      <h2>Fifteen years building and scaling AI-led analytical products.</h2>
+      <p>
+        Before focusing on ecological research, I founded, scaled and exited an AI analytics business
+        built around a difficult problem: converting complex, intangible signals into evidence that
+        organisations could measure, interpret and act upon. That experience now informs how I frame
+        ecological questions, develop computational methods and build tools intended for real-world use.
+      </p>
+      <a href="experience.html" class="ap-button ghost-light">View experience</a>
+    </div>
+  </section>
+
+  <section class="closing-simple">
+    <h2>Ecological research, computational methods and tools for real-world use.</h2>
+    <div class="button-row">
+      <a href="contact.html" class="ap-button dark-button">Contact</a>
+      <a href="https://github.com/AlastairPickering/" class="ap-button outline-dark">GitHub</a>
+    </div>
+  </section>
+</div>
+```

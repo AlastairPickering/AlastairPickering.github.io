@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Alastair Pickering"
+  site-url: "https://alastairpickering.github.io"
+  description: "Computational ecology, biodiversity monitoring and scientific software."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: experience.qmd
+        text: Experience
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/AlastairPickering/
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alastairpickering/
+        aria-label: LinkedIn
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=9N1dOVcAAAAJ&hl=en
+        aria-label: Google Scholar
+  page-footer:
+    left: "© Alastair Pickering"
+    right:
+      - text: GitHub
+        href: https://github.com/AlastairPickering/
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/alastairpickering/
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

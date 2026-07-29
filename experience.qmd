@@ -1,0 +1,152 @@
+---
+title: "Experience"
+page-layout: full
+title-block-banner: false
+body-classes: experience-page
+---
+
+```{=html}
+<section class="page-hero experience-hero">
+  <div class="page-hero-shade"></div>
+  <div class="site-frame page-hero-content">
+    <p class="eyebrow light">Experience</p>
+    <h1>Scientific research grounded in fifteen years of building analytical products and organisations.</h1>
+    <p>
+      My work combines computational ecology, scientific software and field monitoring with a substantial
+      earlier career founding and scaling an AI-led analytics business.
+    </p>
+  </div>
+</section>
+
+<div class="site-frame page-content">
+  <section class="page-intro-wide">
+    <p class="eyebrow">Professional background</p>
+    <h2>From AI analytics to computational ecology.</h2>
+    <p>
+      The subject matter has changed, but the nature of the work is closely connected: identifying
+      meaningful signals in complex systems, formalising them through quantitative methods, and building
+      tools that turn those signals into evidence people can interpret and use.
+    </p>
+  </section>
+
+  <section class="experience-feature founder-feature">
+    <div class="experience-visual founder-photo" role="img"
+         aria-label="Analytical dashboard representing data-led decision-making"></div>
+
+    <div class="experience-copy">
+      <p class="project-meta">2009–2021 · Co-founder</p>
+      <h2>alva, now part of Penta Group</h2>
+
+      <p>
+        I co-founded alva Reputation Analysis, an AI-led analytics business that helped organisations
+        understand how they were perceived across large and fragmented information environments.
+      </p>
+
+      <p>
+        The central challenge was to make an intangible concept measurable. I designed and modelled the
+        core reputation and ESG methodologies, combining large-scale media and stakeholder data into
+        structured evidence that clients could use to understand risk, performance and change.
+      </p>
+
+      <p>
+        Alongside the analytical work, I helped build the company from start-up, led the UK business,
+        developed its marketing and thought-leadership platform, restructured operations and managed
+        senior relationships with major international clients including PwC, Roche, Anglo American,
+        Marks & Spencer, AstraZeneca and BAE Systems.
+      </p>
+
+      <p>
+        My research and analysis appeared in outlets including the BBC, Bloomberg, <em>The Times</em>,
+        <em>The i</em> and <em>The Daily Telegraph</em>. The experience continues to shape how I approach
+        ecological research: careful problem definition, transparent methodology and a strong emphasis
+        on outputs that can be used beyond the original analysis.
+      </p>
+    </div>
+  </section>
+
+  <section class="experience-timeline">
+    <article>
+      <span class="timeline-year">2023–2027</span>
+      <div>
+        <p class="project-meta">University College London · Royal Botanic Gardens, Kew</p>
+        <h3>PhD in Ecology</h3>
+        <p>
+          Fully funded doctoral research developing computational models to predict how temperate forest
+          communities, functional traits and ecosystem properties may change under future climates.
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <span class="timeline-year">2024–present</span>
+      <div>
+        <p class="project-meta">Barefoot Eco Surveys</p>
+        <h3>Ecological monitoring consultant</h3>
+        <p>
+          Acoustic and visual bat surveys, including transects and emergence surveys using bioacoustic
+          loggers, infrared cameras and thermal imaging.
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <span class="timeline-year">2022–2023</span>
+      <div>
+        <p class="project-meta">University College London</p>
+        <h3>MSc Ecology and Data Science — Distinction</h3>
+        <p>
+          Research focused on transfer learning and bioacoustic analysis of forest elephant vocalisations.
+          Awarded Student of the Year and included on the Dean’s List.
+        </p>
+      </div>
+    </article>
+
+    <article>
+      <span class="timeline-year">2021–present</span>
+      <div>
+        <p class="project-meta">Conservation organisations and consultancies</p>
+        <h3>Ecological survey and monitoring</h3>
+        <p>
+          Field, acoustic and image-based monitoring involving bats, butterflies, mammals, birds,
+          elephants and chalk-grassland indicator plants for organisations including the National Trust,
+          Bat Conservation Trust and Chilterns National Landscape.
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section class="capability-grid">
+    <article>
+      <p class="project-meta">Research</p>
+      <h3>Scientific design and analysis</h3>
+      <p>Ecological modelling, machine learning, uncertainty analysis and scientific publication.</p>
+    </article>
+
+    <article>
+      <p class="project-meta">Technology</p>
+      <h3>Methods and products</h3>
+      <p>Translating analytical concepts into reproducible workflows, software and user-facing tools.</p>
+    </article>
+
+    <article>
+      <p class="project-meta">Leadership</p>
+      <h3>Teams and organisations</h3>
+      <p>Building businesses, leading multidisciplinary teams and working with senior stakeholders.</p>
+    </article>
+
+    <article>
+      <p class="project-meta">Application</p>
+      <h3>Evidence for decisions</h3>
+      <p>Framing technical work around real users, operational constraints and practical outcomes.</p>
+    </article>
+  </section>
+
+  <section class="closing-simple experience-closing">
+    <h2>My research builds on long experience turning complex systems into robust analytical tools.</h2>
+    <div class="button-row">
+      <a href="research.html" class="ap-button dark-button">View research</a>
+      <a href="contact.html" class="ap-button outline-dark">Contact</a>
+    </div>
+  </section>
+</div>
+```

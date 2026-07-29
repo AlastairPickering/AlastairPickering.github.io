@@ -1,0 +1,60 @@
+---
+title: "Contact"
+page-layout: full
+title-block-banner: false
+body-classes: contact-page
+---
+
+```{=html}
+<section class="page-hero contact-hero">
+  <div class="page-hero-shade"></div>
+  <div class="site-frame page-hero-content">
+    <p class="eyebrow light">Contact</p>
+    <h1>Research, scientific software and applied environmental work.</h1>
+    <p>
+      I am interested in opportunities and collaborations connecting ecological evidence,
+      computational methods and practical delivery.
+    </p>
+  </div>
+</section>
+
+<div class="site-frame contact-content">
+  <section class="contact-grid">
+    <a class="contact-card" href="mailto:pickeringalastair@gmail.com">
+      <span class="contact-label">Email</span>
+      <strong>pickeringalastair@gmail.com</strong>
+      <span>Send an email →</span>
+    </a>
+
+    <a class="contact-card" href="https://www.linkedin.com/in/alastairpickering/">
+      <span class="contact-label">LinkedIn</span>
+      <strong>Professional background and updates</strong>
+      <span>Open LinkedIn →</span>
+    </a>
+
+    <a class="contact-card" href="https://github.com/AlastairPickering/">
+      <span class="contact-label">GitHub</span>
+      <strong>Code, software and reproducible research</strong>
+      <span>Open GitHub →</span>
+    </a>
+
+    <a class="contact-card" href="https://scholar.google.com/citations?user=9N1dOVcAAAAJ&hl=en">
+      <span class="contact-label">Google Scholar</span>
+      <strong>Publications and citations</strong>
+      <span>Open Scholar →</span>
+    </a>
+
+    <a class="contact-card" href="https://forest-viewer.streamlit.app/">
+      <span class="contact-label">Live application</span>
+      <strong>Future Forest Viewer</strong>
+      <span>Launch viewer →</span>
+    </a>
+
+    <a class="contact-card" href="https://pamalytics-demo.streamlit.app/">
+      <span class="contact-label">Live application</span>
+      <strong>PAMalytics demonstration</strong>
+      <span>Launch demo →</span>
+    </a>
+  </section>
+</div>
+```

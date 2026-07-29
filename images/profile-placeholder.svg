@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Placeholder for a professional portrait">
+  <rect width="800" height="900" fill="#edf4ef"/>
+  <circle cx="400" cy="330" r="145" fill="#b9cbbf"/>
+  <path d="M135 900c20-220 125-340 265-340s245 120 265 340" fill="#8fa999"/>
+  <text x="400" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#285943">Replace with a professional portrait</text>
+</svg>
