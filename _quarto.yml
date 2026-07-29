@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Alastair Pickering"
+  favicon: images/tree-favicon.svg
   site-url: "https://alastairpickering.github.io"
   description: "Computational ecology, biodiversity monitoring and scientific software."
   navbar:
