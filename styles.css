@@ -1012,3 +1012,780 @@ body.contact-page #title-block-header {
     background-position: center 31%;
   }
 }
+
+
+/* Version 19: programme-led homepage and plant bioacoustics */
+.programme-block {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(340px, .85fr);
+  gap: clamp(44px, 6vw, 96px);
+  align-items: center;
+  padding: 20px 0 100px;
+}
+
+.programme-visual {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+}
+
+.macro-visual {
+  background-image:
+    linear-gradient(0deg, rgba(5,18,12,.08), rgba(5,18,12,0)),
+    url("https://images.unsplash.com/photo-1532415914860-f6ee7c74c9fb?auto=format&fit=crop&q=88&w=2200");
+}
+
+.programme-copy {
+  min-width: 0;
+}
+
+.programme-copy h2,
+.home-theme-heading h2,
+.programme-divider h2 {
+  margin: 0 0 20px;
+  font-size: clamp(2.1rem, 3.5vw, 4.1rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+
+.programme-copy p,
+.home-theme-heading p {
+  max-width: 760px;
+  color: var(--ap-muted);
+  font-size: 1.08rem;
+  line-height: 1.68;
+}
+
+.home-theme-heading {
+  max-width: 1100px;
+  padding: 84px 0 42px;
+  border-top: 1px solid var(--ap-line);
+}
+
+.bioacoustics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding-bottom: 110px;
+}
+
+.bio-card {
+  position: relative;
+  min-height: 430px;
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.bio-card:hover {
+  color: white;
+}
+
+.bio-card-plant {
+  background-image: url("https://images.unsplash.com/photo-1771797573215-caa8884a18c9?auto=format&fit=crop&q=85&w=1800");
+}
+
+.bio-card-elephant {
+  background-image: url("https://images.unsplash.com/photo-1505148230895-d9a785a555fa?auto=format&fit=crop&q=85&w=1800");
+  background-position: center 42%;
+}
+
+.bio-card-gibbon {
+  background-image: url("https://commons.wikimedia.org/wiki/Special:Redirect/file/Lar%20Gibbon%20%2846946767992%29.jpg?width=1800");
+  background-position: center 30%;
+}
+
+.bio-card-pam {
+  background-image: url("images/pam_validate.png");
+  background-position: center;
+}
+
+.bio-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(4,14,9,.92) 0%, rgba(4,14,9,.18) 72%);
+}
+
+.bio-card-copy {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 26px;
+  z-index: 2;
+}
+
+.bio-card-copy h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.7rem, 2.6vw, 2.8rem);
+  line-height: 1.04;
+  letter-spacing: -.04em;
+}
+
+.bio-card-copy p {
+  max-width: 620px;
+  margin: 0 0 16px;
+  color: rgba(255,255,255,.84);
+  line-height: 1.55;
+}
+
+.bio-card-copy span {
+  font-weight: 650;
+}
+
+.programme-divider {
+  max-width: 1160px;
+  padding: 105px 0 56px;
+  border-top: 1px solid var(--ap-line);
+}
+
+.programme-divider:first-of-type {
+  border-top: 0;
+  padding-top: 30px;
+}
+
+.programme-divider p {
+  margin-bottom: 14px;
+}
+
+.programme-divider-bio {
+  margin-top: 10px;
+}
+
+.plant-research-photo {
+  background-image:
+    linear-gradient(0deg, rgba(5,18,12,.05), rgba(5,18,12,0)),
+    url("https://images.unsplash.com/photo-1771797573215-caa8884a18c9?auto=format&fit=crop&q=88&w=2200");
+  background-position: center;
+}
+
+.plant-feature {
+  border-top: 0;
+  padding-top: 30px;
+}
+
+@media (max-width: 980px) {
+  .programme-block {
+    grid-template-columns: 1fr;
+  }
+
+  .bioacoustics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bio-card {
+    min-height: 390px;
+  }
+}
+
+@media (max-width: 680px) {
+  .programme-block {
+    gap: 32px;
+    padding-bottom: 70px;
+  }
+
+  .home-theme-heading {
+    padding-top: 62px;
+  }
+
+  .bioacoustics-grid {
+    padding-bottom: 78px;
+  }
+
+  .bio-card {
+    min-height: 350px;
+  }
+
+  .programme-divider {
+    padding: 76px 0 42px;
+  }
+}
+
+
+/* Version 20: research hero consolidation and plant-section alignment */
+body.research-page .page-content {
+  padding-top: 0;
+}
+
+body.research-page #macroecology.programme-divider {
+  padding-top: 88px;
+}
+
+.plant-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(420px, 1.05fr);
+  gap: clamp(44px, 6vw, 96px);
+  align-items: start;
+  padding: 30px 0 90px;
+  border-top: 0;
+}
+
+.plant-copy {
+  min-width: 0;
+}
+
+.plant-feature .plant-research-photo {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  margin: 0;
+  align-self: start;
+}
+
+@media (max-width: 980px) {
+  .plant-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .plant-feature .plant-research-photo {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+
+/* Version 21: tighter programme spacing and homepage ending */
+body.research-page .programme-divider {
+  padding-bottom: 24px;
+}
+
+body.research-page #macroecology.programme-divider {
+  padding-top: 64px;
+}
+
+body.research-page #macroecology + .research-feature {
+  padding-top: 34px;
+}
+
+body.research-page #bioacoustics.programme-divider {
+  padding-top: 72px;
+  padding-bottom: 20px;
+}
+
+body.research-page #bioacoustics + .plant-feature {
+  padding-top: 28px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.home-profile {
+  padding-bottom: 64px;
+}
+
+@media (max-width: 680px) {
+  body.research-page #macroecology.programme-divider,
+  body.research-page #bioacoustics.programme-divider {
+    padding-top: 54px;
+    padding-bottom: 16px;
+  }
+
+  body.research-page #macroecology + .research-feature,
+  body.research-page #bioacoustics + .plant-feature {
+    padding-top: 22px;
+  }
+}
+
+
+/* Version 22: rebalance research programme headings and collaboration CTA */
+body.research-page .programme-divider {
+  width: 100%;
+  max-width: none;
+}
+
+body.research-page .programme-divider h2 {
+  width: 100%;
+  max-width: 1380px;
+  margin-bottom: 0;
+  font-size: clamp(2rem, 2.8vw, 3rem);
+  line-height: 1.06;
+  letter-spacing: -.038em;
+  text-wrap: balance;
+}
+
+body.research-page #macroecology.programme-divider {
+  padding-top: 48px;
+  padding-bottom: 10px;
+}
+
+body.research-page #bioacoustics.programme-divider {
+  padding-top: 58px;
+  padding-bottom: 8px;
+}
+
+body.research-page #macroecology + .research-feature,
+body.research-page #bioacoustics + .plant-feature {
+  padding-top: 22px;
+}
+
+.collaboration-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 48px;
+  align-items: end;
+  margin-top: 24px;
+  padding: clamp(36px, 4vw, 58px);
+  border-radius: 16px;
+  color: white;
+  background: var(--ap-green-dark);
+}
+
+.collaboration-band h2 {
+  max-width: 780px;
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 3vw, 3.4rem);
+  line-height: 1.04;
+  letter-spacing: -.04em;
+}
+
+.collaboration-band p:last-child {
+  max-width: 720px;
+  margin: 0;
+  color: rgba(255,255,255,.76);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.collaboration-band > .ap-button {
+  align-self: end;
+  white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+  body.research-page .programme-divider h2 {
+    font-size: clamp(1.85rem, 7vw, 2.5rem);
+  }
+
+  .collaboration-band {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .collaboration-band > .ap-button {
+    justify-self: start;
+  }
+}
+
+@media (max-width: 680px) {
+  body.research-page #macroecology.programme-divider,
+  body.research-page #bioacoustics.programme-divider {
+    padding-top: 42px;
+    padding-bottom: 8px;
+  }
+
+  body.research-page #macroecology + .research-feature,
+  body.research-page #bioacoustics + .plant-feature {
+    padding-top: 18px;
+  }
+}
+
+
+/* Version 24: consistent typographic hierarchy and full-width homepage headings */
+
+/* Level 1: page heroes */
+.hero-content h1,
+.page-hero-content h1 {
+  font-size: clamp(2.4rem, 3.4vw, 3.5rem) !important;
+}
+
+/* Homepage overview statement: supporting, not another hero */
+.home-page .intro-statement {
+  max-width: 1180px;
+}
+
+.home-page .intro-statement h2 {
+  max-width: 1100px;
+  font-size: clamp(2rem, 2.8vw, 2.8rem);
+  line-height: 1.06;
+  letter-spacing: -.038em;
+}
+
+/* Level 2: programme headings, flowing across the full site frame */
+.home-page .home-theme-heading {
+  width: 100%;
+  max-width: none;
+}
+
+.home-page .home-theme-heading h2 {
+  width: 100%;
+  max-width: 1450px;
+  font-size: clamp(2.1rem, 3vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -.04em;
+  text-wrap: balance;
+}
+
+.home-page .home-theme-heading p {
+  max-width: 900px;
+}
+
+.home-page .home-theme-heading-first {
+  padding-top: 24px;
+  border-top: 1px solid var(--ap-line);
+}
+
+/* Level 3: individual feature titles */
+.home-page .programme-copy h2,
+.research-page .research-copy h2,
+.experience-page .experience-copy h2 {
+  font-size: clamp(1.9rem, 2.6vw, 2.55rem);
+  line-height: 1.06;
+  letter-spacing: -.036em;
+}
+
+/* Level 4: image-card and supporting-card titles */
+.home-page .bio-card-copy h3,
+.research-page .research-card-copy h3,
+.experience-page .capability-grid h3,
+.experience-page .experience-timeline h3 {
+  font-size: clamp(1.45rem, 1.9vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -.03em;
+}
+
+/* Keep the profile title subordinate to the research programmes */
+.home-page .home-profile-copy h2 {
+  font-size: clamp(1.9rem, 2.6vw, 2.55rem);
+  line-height: 1.06;
+}
+
+/* The final contact prompt should not compete with the programme headings */
+.research-page .collaboration-band h2 {
+  font-size: clamp(1.85rem, 2.4vw, 2.5rem);
+}
+
+/* White labels over photographic bioacoustics cards */
+.home-page .bio-card .project-meta,
+.home-page .bio-card .light-meta {
+  color: rgba(255,255,255,.82) !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,.35);
+}
+
+/* Dark, high-contrast labels on white research sections */
+.research-page .project-meta {
+  color: var(--ap-ink) !important;
+  opacity: .78;
+}
+
+/* Tighten the transition from programme heading to the content beneath it */
+.home-page .home-theme-heading + .programme-block {
+  padding-top: 16px;
+}
+
+@media (max-width: 680px) {
+  .home-page .intro-statement h2,
+  .home-page .home-theme-heading h2 {
+    font-size: clamp(1.9rem, 7.5vw, 2.5rem);
+  }
+
+  .home-page .programme-copy h2,
+  .research-page .research-copy h2,
+  .experience-page .experience-copy h2,
+  .home-page .home-profile-copy h2 {
+    font-size: clamp(1.75rem, 7vw, 2.25rem);
+  }
+}
+
+
+/* Version 26: matched Macroecology and Bioacoustics homepage programmes */
+.programme-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding-bottom: 110px;
+}
+
+.programme-card {
+  position: relative;
+  min-height: 430px;
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.programme-card:hover,
+.programme-card:focus {
+  color: white;
+}
+
+.macro-card-communities {
+  background-image: url("https://images.unsplash.com/photo-1532415914860-f6ee7c74c9fb?auto=format&fit=crop&q=88&w=1800");
+}
+
+.macro-card-traits {
+  background-image: url("https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=88&w=1800");
+}
+
+.macro-card-services {
+  background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=88&w=1800");
+}
+
+.macro-card-viewer {
+  background-image:
+    linear-gradient(rgba(15,36,27,.12), rgba(15,36,27,.12)),
+    url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=88&w=1800");
+}
+
+.home-page .programme-card .project-meta,
+.home-page .programme-card .light-meta {
+  color: rgba(255,255,255,.84) !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,.35);
+}
+
+.home-page .programme-card .bio-card-copy h3 {
+  font-size: clamp(1.45rem, 1.9vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -.03em;
+}
+
+.home-page .home-theme-heading .text-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.research-page .programme-media-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+@media (max-width: 980px) {
+  .programme-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .programme-card {
+    min-height: 390px;
+  }
+}
+
+@media (max-width: 680px) {
+  .programme-card-grid {
+    padding-bottom: 78px;
+  }
+
+  .programme-card {
+    min-height: 350px;
+  }
+}
+
+
+/* Version 27: definitive full-width headings and reliable anchor layouts */
+
+/* The first homepage programme now follows the hero directly. */
+.home-page .home-theme-heading-first {
+  padding-top: clamp(64px, 7vw, 104px);
+  border-top: 0;
+}
+
+/* Let programme headlines use the actual width available.
+   Do not balance lines, as that creates artificially short text blocks. */
+.home-page .home-theme-heading h2,
+.research-page .programme-divider h2 {
+  display: block;
+  width: 100%;
+  max-width: none !important;
+  text-wrap: wrap !important;
+}
+
+/* Programme headings remain subordinate to the page hero. */
+.home-page .home-theme-heading h2,
+.research-page .programme-divider h2 {
+  font-size: clamp(2rem, 2.55vw, 2.75rem) !important;
+  line-height: 1.08;
+  letter-spacing: -.036em;
+}
+
+/* Ensure the heading divider itself occupies the complete content frame. */
+.research-page .programme-divider,
+.home-page .home-theme-heading {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none !important;
+}
+
+/* Anchor-linked research sections must start as coherent rows.
+   Vertical centring was creating large blank areas beside longer copy. */
+.research-page .research-feature,
+.research-page .research-feature-software,
+.research-page .plant-feature {
+  align-items: start !important;
+}
+
+/* Keep both columns aligned from their first visible element. */
+.research-page .research-photo,
+.research-page .research-copy,
+.research-page .pam-gallery {
+  align-self: start;
+}
+
+/* Provide space below the fixed navigation when following homepage cards. */
+.research-page [id] {
+  scroll-margin-top: 96px;
+}
+
+/* Tight, predictable transitions from programme heading to first project. */
+.research-page #macroecology.programme-divider,
+.research-page #bioacoustics.programme-divider {
+  padding-bottom: 20px !important;
+}
+
+.research-page #macroecology + .research-feature,
+.research-page #bioacoustics + .plant-feature {
+  padding-top: 28px !important;
+}
+
+/* Remove inherited large top gaps on directly linked features. */
+.research-page #future-forests,
+.research-page #plant-bioacoustics {
+  margin-top: 0;
+}
+
+/* Project headings stay visibly below programme headings. */
+.research-page .research-copy h2 {
+  font-size: clamp(1.75rem, 2.15vw, 2.3rem) !important;
+}
+
+/* Homepage cards use the same subordinate title scale. */
+.home-page .programme-card .bio-card-copy h3 {
+  font-size: clamp(1.45rem, 1.8vw, 1.95rem) !important;
+}
+
+@media (max-width: 680px) {
+  .home-page .home-theme-heading h2,
+  .research-page .programme-divider h2 {
+    font-size: clamp(1.85rem, 7vw, 2.35rem) !important;
+  }
+
+  .research-page [id] {
+    scroll-margin-top: 78px;
+  }
+}
+
+
+/* Version 28: detached fragment anchors for complex research grids */
+.research-page .section-anchor {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-margin-top: 96px;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* The anchor is separate from the grid, so :target cannot alter grid layout. */
+.research-page .section-anchor:target {
+  display: block;
+  width: 100%;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Preserve the intended compact transitions after detached anchors. */
+.research-page #future-forests + .research-feature {
+  padding-top: 28px !important;
+}
+
+.research-page #plant-bioacoustics + .plant-feature {
+  padding-top: 28px !important;
+}
+
+.research-page #pamalytics + .research-feature,
+.research-page #elephant-bioacoustics + .research-feature {
+  align-items: start !important;
+}
+
+/* Documentary links now belong to the relevant animal research sections. */
+.research-page .research-card-copy > .text-link {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+@media (max-width: 680px) {
+  .research-page .section-anchor {
+    scroll-margin-top: 78px;
+  }
+}
+
+
+/* Version 29: current advisory work high in the Experience page */
+.advisory-feature {
+  display: grid;
+  grid-template-columns: minmax(280px, .72fr) minmax(0, 1.28fr);
+  gap: clamp(44px, 7vw, 110px);
+  align-items: start;
+  padding: 58px 0 76px;
+  border-top: 1px solid var(--ap-line);
+}
+
+.advisory-feature h2 {
+  max-width: 620px;
+  margin: 0;
+  font-size: clamp(2rem, 2.75vw, 3rem);
+  line-height: 1.06;
+  letter-spacing: -.04em;
+}
+
+.advisory-copy {
+  max-width: 820px;
+}
+
+.advisory-copy p {
+  margin: 0 0 18px;
+  color: var(--ap-muted);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.advisory-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.experience-page .founder-feature {
+  padding-top: 76px;
+}
+
+.experience-page .experience-closing > .eyebrow {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 800px) {
+  .advisory-feature {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+
+/* Version 30: quieter Experience-page contact prompt */
+.experience-page .experience-closing {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.experience-page .experience-closing h2 {
+  max-width: 760px;
+  margin-bottom: 24px;
+  font-size: clamp(1.55rem, 2vw, 2rem) !important;
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
+
+@media (max-width: 680px) {
+  .experience-page .experience-closing h2 {
+    font-size: clamp(1.4rem, 6vw, 1.8rem) !important;
+  }
+}
