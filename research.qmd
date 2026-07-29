@@ -104,8 +104,7 @@ body-classes: research-page
 
         <p>
           I model how climate, forest structure and functional composition jointly shape ecosystem
-          properties including carbon storage, species richness, diversity, land-surface temperature
-          and albedo.
+          properties including carbon storage, species richness, habitat diversity, and timber production.
         </p>
 
         <p>
