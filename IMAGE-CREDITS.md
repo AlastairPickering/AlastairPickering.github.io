@@ -14,3 +14,7 @@ The Unsplash assets are used under the Unsplash licence. The gibbon image is ava
 For the production site, download approved copies into `images/` and replace the remote URLs in `styles.css`. Your own field footage, app recordings and research figures should ultimately replace generic stock photography where available.
 
 - Personal field photograph: supplied by Alastair Pickering.
+
+- Vineyard rows used for plant bioacoustics: XXWW / Unsplash (free under the Unsplash licence).
+
+- Macroecology homepage cards: forest and canopy photographs from Unsplash, used under the Unsplash licence.

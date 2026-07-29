@@ -10,31 +10,29 @@ body-classes: research-page
   <div class="page-hero-shade"></div>
   <div class="site-frame page-hero-content">
     <p class="eyebrow light">Research</p>
-    <h1>Understanding ecological change across scales.</h1>
+    <h1>From continental forest change to physiological and behavioural signals.</h1>
     <p>
-      My work combines macroecology, functional traits, machine learning, bioacoustics and scientific
-      software to understand forests, biodiversity and animal populations.
+      My work combines macroecology, functional traits, machine learning and bioacoustics
+      to extract meaningful evidence from complex ecological data and make environmental
+      change easier to interpret.
     </p>
   </div>
 </section>
 
 <div class="site-frame page-content">
-  <section class="page-intro-wide">
-    <p class="eyebrow">Research programme</p>
-    <h2>From continental forest change to individual animal vocalisations.</h2>
-    <p>
-      The projects differ in scale, but share a common purpose: extracting biologically meaningful
-      evidence from complex environmental data and translating it into models, workflows and tools
-      that can support research and conservation practice.
-    </p>
+
+  <section id="macroecology" class="programme-divider">
+    <p class="eyebrow">Macroecology</p>
+    <h2>Forest communities, traits and ecosystem function under climate change.</h2>
   </section>
 
-  <section id="future-forests" class="research-feature research-feature-large">
+  <div id="future-forests" class="section-anchor" aria-hidden="true"></div>
+  <section class="research-feature research-feature-large">
     <div class="research-photo forest-research-photo" role="img"
          aria-label="Dense North American forest landscape"></div>
 
     <div class="research-copy">
-      <p class="project-meta">Macroecology · Climate change · Community composition</p>
+      <p class="project-meta">Climate change · Community composition · Ecological forecasting</p>
       <h2>Future forest communities</h2>
 
       <p>
@@ -63,7 +61,7 @@ body-classes: research-page
   </section>
 
   <section class="research-split">
-    <article class="research-card">
+    <article id="trait-environment" class="research-card">
       <div class="research-card-image traits-image" role="img"
            aria-label="Forest canopy and environmental gradients"></div>
 
@@ -79,17 +77,20 @@ body-classes: research-page
         <p>
           Using community-weighted means across physiological, tolerance and symbiotic traits, I model
           current trait–environment relationships and project how far future communities may move beyond
-          the combinations observed today.
+          combinations observed today.
         </p>
 
         <p>
           The aim is to make future ecological communities biologically interpretable: not only where
           change may occur, but which ecological strategies and trait combinations those futures may require.
         </p>
+
+        <a href="https://www.biorxiv.org/content/10.64898/2026.03.13.711509v1.abstract"
+           class="text-link">Read the preprint →</a>
       </div>
     </article>
 
-    <article class="research-card">
+    <article id="ecosystem-services" class="research-card">
       <div class="research-card-image ecosystem-image" role="img"
            aria-label="Forest ecosystem viewed across a broad landscape"></div>
 
@@ -99,25 +100,71 @@ body-classes: research-page
 
         <p>
           I model how climate, forest structure and functional composition jointly shape ecosystem
-          properties including carbon storage, species richness, carbon and biomass fluxes, timber production and habitat provision.
+          properties including carbon storage, species richness, diversity, land-surface temperature
+          and albedo.
         </p>
 
         <p>
           The research separates direct climatic exposure from effects mediated through community traits
           and forest structure, helping identify where changes in composition may amplify or offset
-          broader environmental pressures and what management levers may be available.
+          broader environmental pressures.
         </p>
 
         <p>
-          It also evaluates which existing ecosystem service hotspots are most at risk and where new value may arise to help guide planning decisions and economic assessments.
+          It also evaluates where trait-based interventions may be ecologically feasible, using projected
+          composition, dispersal constraints and seed-zone availability.
         </p>
       </div>
     </article>
   </section>
 
-  <section id="pamalytics" class="research-feature research-feature-software">
+  <section id="bioacoustics" class="programme-divider programme-divider-bio">
+    <p class="eyebrow">Bioacoustics</p>
+    <h2>Acoustic signals as evidence of physiological, behavioural and ecological state.</h2>
+  </section>
+
+  <div id="plant-bioacoustics" class="section-anchor" aria-hidden="true"></div>
+  <section class="plant-feature">
+    <div class="research-copy plant-copy">
+      <p class="project-meta">Plant hydraulics · Drought ecology · Machine learning</p>
+      <h2>Plant bioacoustics and drought detection</h2>
+
+      <p>
+        Drought damage can accumulate before it becomes visually obvious. In grapevine, hydraulic
+        function may deteriorate while plants still appear vigorous, limiting the time available for
+        targeted intervention.
+      </p>
+
+      <p>
+        This research tests whether ultrasonic acoustic emissions from the xylem can provide an earlier
+        measure of realised physiological stress. These emissions are associated with cavitation and
+        embolism formation, linking the acoustic signal directly to the hydraulic processes through which
+        drought risk develops.
+      </p>
+
+      <p>
+        The experimental system combines continuous stem-mounted ultrasonic sensing with point
+        dendrometers, soil-moisture measurements and controlled dry-down and rewatering episodes.
+        For each acoustic event, the system records high-rate waveform snippets and features including
+        timing, amplitude, duration, peak frequency, centre frequency and spectral composition.
+      </p>
+
+      <p>
+        The analysis has two connected aims: quantify whether acoustic changes precede established
+        drought metrics, and train an automated classifier that predicts drought state across different
+        vines and repeated stress–recovery episodes. The architecture is designed with eventual
+        field deployment in mind, including local data collection and models suitable for edge processing.
+      </p>
+    </div>
+
+    <div class="research-photo plant-research-photo" role="img"
+         aria-label="Rows of grapevines in a green vineyard"></div>
+  </section>
+
+  <div id="pamalytics" class="section-anchor" aria-hidden="true"></div>
+  <section class="research-feature research-feature-software">
     <div class="research-copy">
-      <p class="project-meta">Passive acoustic monitoring · Scientific software</p>
+      <p class="project-meta">Passive acoustic monitoring · Research software</p>
       <h2>PAMalytics</h2>
 
       <p>
@@ -139,11 +186,6 @@ body-classes: research-page
         without building bespoke software.
       </p>
 
-      <p>
-        Current case studies include pileated gibbon monitoring in Cambodia and species-level bird
-        validation before biodiversity metrics are derived.
-      </p>
-
       <div class="research-links">
         <a href="https://pamalytics-demo.streamlit.app/" class="text-link">Launch demo →</a>
         <a href="https://alastairpickering.github.io/PAMalytics/" class="text-link">Documentation →</a>
@@ -159,7 +201,8 @@ body-classes: research-page
     </div>
   </section>
 
-  <section id="elephant-bioacoustics" class="research-feature">
+  <div id="elephant-bioacoustics" class="section-anchor" aria-hidden="true"></div>
+  <section class="research-feature">
     <div class="research-photo elephant-research-photo" role="img"
          aria-label="African elephant standing in woodland"></div>
 
@@ -192,12 +235,15 @@ body-classes: research-page
         <a href="https://scholar.google.com/citations?user=9N1dOVcAAAAJ&hl=en"
            class="text-link">View publication →</a>
         <a href="https://github.com/AlastairPickering/" class="text-link">View code →</a>
+        <a href="https://www.bbc.co.uk/programmes/w3ct81mr" class="text-link">
+          BBC documentary →
+        </a>
       </div>
     </div>
   </section>
 
   <section class="research-split">
-    <article class="research-card">
+    <article id="gibbon-monitoring" class="research-card">
       <div class="research-card-image gibbon-image" role="img"
            aria-label="Gibbon moving through tropical forest canopy"></div>
 
@@ -219,6 +265,10 @@ body-classes: research-page
           This provides an applied test case for PAMalytics and for broader questions around how acoustic
           AI can be deployed reliably in conservation programmes.
         </p>
+
+        <a href="https://www.bbc.co.uk/programmes/w3ct81mr" class="text-link">
+          BBC documentary →
+        </a>
       </div>
     </article>
 
@@ -248,18 +298,16 @@ body-classes: research-page
     </article>
   </section>
 
-  <section id="publications" class="publication-band">
+  <section class="collaboration-band">
     <div>
-      <p class="eyebrow light">Publications and outputs</p>
-      <h2>Peer-reviewed research, software and current manuscripts.</h2>
+      <p class="eyebrow light">Get in touch</p>
+      <h2>Research collaborations and applied ecological projects.</h2>
+      <p>
+        For work spanning macroecology, bioacoustics, machine learning and ecological monitoring.
+      </p>
     </div>
 
-    <div class="publication-links">
-      <a href="https://scholar.google.com/citations?user=9N1dOVcAAAAJ&hl=en"
-         class="ap-button primary-light">Google Scholar</a>
-      <a href="https://github.com/AlastairPickering/"
-         class="ap-button ghost-light">GitHub</a>
-    </div>
+    <a href="contact.html" class="ap-button primary-light">Contact</a>
   </section>
 </div>
 ```
